@@ -1,0 +1,50 @@
+.flex-header{
+	width: 100%;
+	margin: 0 auto;
+	display: -webkit-flex; /* Safari */
+	display: flex; /* Standard syntax */
+}
+.flex-header .column1{
+	padding: 10px;
+	-webkit-flex: 1; /* Safari */
+	-ms-flex: 1; /* IE 10 */
+	flex: 1; /* Standard syntax */
+}
+.flex-header .column2{
+    padding: 10px;
+	-webkit-flex: 1; /* Safari */
+	-ms-flex: 1; /* IE 10 */
+	flex: 1; /* Standard syntax */
+}
+
+
+.flex-container{
+	width: 100%;
+	min-height: 400px;
+	margin: 0 auto;
+	display: -webkit-flex; /* Safari */
+	display: flex; /* Standard syntax */
+}
+.flex-container .column{
+	padding: 10px;
+	-webkit-flex: 1; /* Safari */
+	-ms-flex: 1; /* IE 10 */
+	flex: 1; /* Standard syntax */
+}
+.flex-container .column.bg-alt{
+}
+
+.nodes circle {
+    cursor: pointer;
+    fill: #8423c6;
+    stroke: #000;
+    stroke-width: .5px;
+}
+
+.links line {
+    fill: none;
+    stroke: #9ecae1;
+    stroke-width: .5px;
+
+}
+

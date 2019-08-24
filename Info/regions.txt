@@ -1,0 +1,68 @@
+region_1
+Beaver Valley
+Calvert Cliffs
+FitzPatrick
+Ginna
+Hope Creek
+Indian Point
+Limerick
+Millstone
+Nine Mile Point
+Peach Bottom
+Pilgrim
+Salem
+Seabrook
+Susquehanna
+Three Mile Island
+
+region_2
+Browns Ferry
+Brunswick
+Catawba
+Crystal River
+Farley
+Harris
+Hatch
+McGuire
+North Anna
+Oconee
+Robinson
+Saint Lucie
+Sequoyah
+Summer
+Surry
+Turkey Point
+Vogtle
+Watts Bar
+
+region_3
+Braidwood
+Byron
+Clinton
+Davis-Besse
+D.C. Cook
+Dresden
+Duane Arnold
+Fermi
+La Salle
+Monticello
+Palisades
+Perry
+Point Beach
+Prairie Island
+Quad Cities
+
+region_4
+Arkansas
+Callaway
+Columbia Generating Station
+Comanche Peak
+Cooper
+Diablo Canyon
+Fort Calhoun
+Grand Gulf
+Palo Verde
+River Bend
+South Texas
+Waterford
+Wolf Creek

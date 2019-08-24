@@ -1,0 +1,6 @@
+
+
+intensity value / category value
+
+#Later Stage -
+can we use clusteritng here with nodes (based on modularity score)

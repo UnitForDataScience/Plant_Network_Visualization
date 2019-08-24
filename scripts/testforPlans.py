@@ -1,0 +1,14 @@
+#old_plants_list = ["Arkansas","Beaver Valley","Braidwood","Browns Ferry","Brunswick","Byron","Callaway","Calvert Cliffs","Catawba","Clinton","Columbia Generating Station","Comanche Peak","Cooper","D.C. Cook","Davis-Besse","Diablo Canyon","Dresden","Duane Arnold","Farley","Fermi","FitzPatrick","Ginna","Grand Gulf","Haddam Neck","Harris","Hatch","Hope Creek","Humboldt Bay","Indian Point","Kewaunee","La Crosse","LaSalle","Limerick","Maine Yankee","McGuire","Millstone","Monticello","Nine Mile Point","North Anna","Oconee","Oyster Creek","Palisades","Palo Verde","Peach Bottom","Perry","Pilgrim","Point Beach","Prairie Island","Quad Cities","Rancho Seco","River Bend","Robinson","Saint Lucie","Salem","San Onofre","Seabrook","Sequoyah","Shoreham","South Texas","Summer","Surry","Susquehanna","Three Mile Island","Trojan","Turkey Point","Vermont Yankee","Vogtle","Waterford","Watts Bar","Wolf Creek","Yankee_Rowe","Zion","Big Rock Point","Crystal River","Fort Calhoun","Fort St. Vrain"]
+webpage_plants_list = ["Beaver Valley","Calvert Cliffs","FitzPatrick","Ginna","Hope Creek","Indian Point","Limerick","Millstone","Nine Mile Point","Peach Bottom","Pilgrim","Salem","Seabrook","Susquehanna","Three Mile Island","Browns Ferry","Brunswick","Catawba","Crystal River","Farley","Harris","Hatch","McGuire","North Anna","Oconee","Robinson","Saint Lucie","Sequoyah","Summer","Surry","Turkey Point","Vogtle","Watts Bar","Braidwood","Byron","Clinton","Davis-Besse","D.C. Cook","Dresden","Duane Arnold","Fermi","La Salle","Monticello","Palisades","Perry","Point Beach","Prairie Island","Quad Cities","Arkansas","Callaway","Columbia Generating Station","Comanche Peak","Cooper","Diablo Canyon","Fort Calhoun","Grand Gulf","Palo Verde","River Bend","South Texas","Waterford","Wolf Creek"]
+trixy_list = ["Arkansas","Beaver Valley","Braidwood","Browns Ferry","Brunswick","Byron","Callaway","Calvert Cliffs","Catawba","Clinton","Columbia Generating Station","Comanche Peak","Cooper","Crystal River","D.C. Cook","Davis-Besse","Diablo Canyon","Dresden","Duane Arnold","Farley","Fermi","FitzPatrick","Fort Calhoun","Ginna","Grand Gulf","Harris","Hatch","Hope Creek","Indian Point","Kewaunee","La Salle","Limerick","McGuire","Millstone","Monticello","Nine Mile Point","North Anna","Oconee","Oyster Creek","Palisades","Palo Verde","Peach Bottom","Perry","Pilgrim","Point Beach","Prairie Island","Quad Cities","River Bend","Robinson","Saint Lucie","Salem","San Onofre","Seabrook","Sequoyah","South Texas","Summer","Surry","Susquehanna","Three Mile Island","Turkey Point","Vermont Yankee","Vogtle","Waterford","Watts Bar","Wolf Creek"]
+
+for plant in webpage_plants_list:
+    if plant in trixy_list:
+        #print("Plant : " , plant, " is present")
+        continue
+    else:
+        print(plant)
+
+print("length of pulled plant's list : ",len(trixy_list))
+print("length of plants on webpage list : " ,len(webpage_plants_list))
+print(list(set(trixy_list) - set(webpage_plants_list)))

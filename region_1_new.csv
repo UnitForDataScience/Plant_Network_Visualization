@@ -1,0 +1,70 @@
+,Plant,source,target,weight
+0,Calvert Cliffs,engineers_unspec,maintenance_WKR,1
+1,Calvert Cliffs,worker_unspec,technician_unspec,1
+2,Calvert Cliffs,contractor_nonlicensed,worker_unspec,1
+3,Calvert Cliffs,licensed_OP,operator_unspec,1
+4,Calvert Cliffs,contractor_nonlicensed,technician_unspec,1
+5,Calvert Cliffs,operator_unspec,operator_unspec,4
+0,Ginna,operator_unspec,operator_unspec,2
+1,Ginna,shift_manager,engineer_unspec,1
+2,Ginna,operator_unspec,operators_unspec,1
+3,Ginna,engineer_unspec,engineer_unspec,1
+0,Hope Creek,control_room_sup,shift_manager,1
+1,Hope Creek,shift_manager,tech_unspec,1
+2,Hope Creek,supervisor_unspec,tech_unspec,1
+3,Hope Creek,control_room_sup,assistant_shift_sup,1
+4,Hope Creek,tech_unspec,supervisor_unspec,2
+5,Hope Creek,shift_manager,control_room_sup,2
+6,Hope Creek,shift_manager,assistant_shift_sup,1
+7,Hope Creek,operators_unspec,engineers_unspec,1
+8,Hope Creek,control_room_sup,control_room_sup,1
+0,Indian Point,technician_unspec,technician_unspec,2
+1,Indian Point,operator_unspec,operator_unspec,1
+2,Indian Point,CR_supervisor,control_room_sup,1
+3,Indian Point,control_room_sup,supervisor_unspec,1
+4,Indian Point,shift_manager,CR_supervisor,1
+5,Indian Point,CR_supervisor,supervisor_unspec,2
+6,Indian Point,supervisor_unspec,tech_unspec,3
+7,Indian Point,operators_unspec,control_room_sup,1
+8,Indian Point,control_room_OP,tech_unspec,1
+9,Indian Point,engineer_unspec,supervisor_unspec,2
+10,Indian Point,assistant_shift_sup,operations_manager,2
+11,Indian Point,engineers_unspec,engineer_unspec,1
+12,Indian Point,operators_unspec,tech_unspec,1
+13,Indian Point,supervisor_unspec,control_room_sup,2
+14,Indian Point,control_room_sup,tech_unspec,1
+15,Indian Point,supervisor_unspec,operators_unspec,1
+16,Indian Point,control_room_sup,operators_unspec,1
+17,Indian Point,operators_unspec,maintenance_WKR,1
+18,Indian Point,shift_manager,operations_manager,1
+19,Indian Point,tech_unspec,technician_unspec,1
+20,Indian Point,tech_unspec,supervisor_unspec,1
+21,Indian Point,supervisor_unspec,electrician,1
+22,Indian Point,reactor_OP,control_room_sup,2
+23,Indian Point,tech_unspec,supervisor,1
+24,Indian Point,operators_unspec,operator_unspec,2
+25,Indian Point,control_room_sup,control_room_sup,2
+0,Limerick,CR_supervisor,operator_unspec,2
+1,Limerick,control_room_sup,reactor_OP,1
+0,Millstone,transmission_system_OP,transmission_system_OP,1
+1,Millstone,operators_unspec,tech_unspec,1
+2,Millstone,control_room_OP,licensed_OP,2
+3,Millstone,shift_supervisor,shift_supervisor,1
+0,Nine Mile Point,operator_unspec,shift_manager,1
+1,Nine Mile Point,operator_unspec,operators_unspec,2
+2,Nine Mile Point,operator_unspec,operator_unspec,1
+0,Peach Bottom,resident_inspector,operator_unspec,1
+0,Pilgrim,operators_unspec,shift_supervisor,1
+1,Pilgrim,operator_unspec,tech_unspec,1
+0,Salem,operator_unspec,control_room_OP,1
+1,Salem,control_room_sup,operator_unspec,1
+2,Salem,supervisor,operator_unspec,1
+3,Salem,operator_unspec,s_reactor_operator,1
+4,Salem,operators_unspec,supervisor,1
+5,Salem,engineer_unspec,engineer_unspec,1
+0,Seabrook,electrician,licensed_OP,1
+1,Seabrook,supervisor,operators_unspec,1
+2,Seabrook,licensed_OP,electrician,1
+0,Susquehanna,supervisor_unspec,shift_manager,1
+1,Susquehanna,operator_unspec,operator_unspec,1
+0,Three Mile Island,plant_manager,resident_inspector,1
