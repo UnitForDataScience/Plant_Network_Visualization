@@ -1,0 +1,255 @@
+,Plant,source,target,weight
+0,Beaver Valley,engineer_unspec,engineer_unspec,2
+1,Beaver Valley,operator_unspec,operator_unspec,1
+2,Beaver Valley,operators_unspec,operators_unspec,1
+3,Beaver Valley,i_and_c_tech,supervisor_unspec,1
+4,Beaver Valley,engineers_unspec,tech_unspec,1
+5,Beaver Valley,maintenance_sup,analysts_unspec,1
+6,Beaver Valley,engineer_unspec,shift_supervisor,1
+7,Beaver Valley,licensed_OP,operators_unspec,2
+8,Beaver Valley,operator_unspec,shift_supervisor,1
+9,Beaver Valley,shift_supervisor,engineer_unspec,1
+10,Beaver Valley,engineer_unspec,reactor_OP,1
+11,Beaver Valley,contractor_nonlicensed,mechanic_unspec,1
+12,Beaver Valley,engineers_unspec,supervisor,1
+13,Beaver Valley,technician_unspec,electrician,1
+14,Beaver Valley,tech_unspec,supervisor,1
+15,Beaver Valley,engineer_unspec,tech_unspec,1
+16,Beaver Valley,engineer_unspec,operator_unspec,1
+17,Beaver Valley,assistant_shift_sup,shift_supervisor,3
+0,Calvert Cliffs,contractor_nonlicensed,maintenance_WKR,19
+1,Calvert Cliffs,fire_watch_staff,fire_watch_staff,3
+2,Calvert Cliffs,electrician,electrician,1
+3,Calvert Cliffs,operator_unspec,operator_unspec,1
+4,Calvert Cliffs,maintenance_sup,fire_watch_staff,1
+5,Calvert Cliffs,contractor_nonlicensed,contractor_nonlicensed,5
+6,Calvert Cliffs,contractor_nonlicensed,supervisor_unspec,9
+7,Calvert Cliffs,operators_unspec,operators_unspec,1
+8,Calvert Cliffs,shift_manager,CR_supervisor,1
+9,Calvert Cliffs,engineer_unspec,system_design_ENG,1
+10,Calvert Cliffs,contractor_nonlicensed,fire_watch_staff,10
+11,Calvert Cliffs,contractor_nonlicensed,maintenance_sup,2
+12,Calvert Cliffs,maintenance_WKR,fire_watch_staff,5
+13,Calvert Cliffs,worker_unspec,fire_watch_staff,1
+14,Calvert Cliffs,mechanics_unspec,engineer_unspec,2
+15,Calvert Cliffs,operators_unspec,tech_unspec,1
+16,Calvert Cliffs,electrician,operators_unspec,1
+17,Calvert Cliffs,maintenance_WKR,supervisor_unspec,3
+18,Calvert Cliffs,maintenance_WKR,contractor_nonlicensed,5
+19,Calvert Cliffs,contractor_nonlicensed,worker_unspec,1
+20,Calvert Cliffs,fire_watch_staff,maintenance_WKR,4
+21,Calvert Cliffs,tech_unspec,shift_manager,1
+22,Calvert Cliffs,fire_watch_staff,worker_unspec,1
+23,Calvert Cliffs,operator_unspec,control_room_sup,2
+24,Calvert Cliffs,supervisor_unspec,tech_unspec,1
+25,Calvert Cliffs,fire_watch_staff,contractor_nonlicensed,6
+26,Calvert Cliffs,control_room_OP,operator_unspec,1
+27,Calvert Cliffs,electrician,supervisor_unspec,1
+28,Calvert Cliffs,CR_supervisor,control_room_OP,1
+29,Calvert Cliffs,supervisor_unspec,contractor_nonlicensed,1
+30,Calvert Cliffs,licensed_OP,control_room_sup,1
+31,Calvert Cliffs,tech_unspec,tech_unspec,1
+0,FitzPatrick,operators_unspec,operators_unspec,2
+1,FitzPatrick,operations_manager,operators_unspec,1
+2,FitzPatrick,tech_unspec,supervisor,1
+3,FitzPatrick,supervisor_unspec,technician_unspec,1
+4,FitzPatrick,control_room_OP,control_room_OP,1
+0,Ginna,engineer_unspec,shift_supervisor,1
+1,Ginna,tech_unspec,shift_supervisor,1
+2,Ginna,control_room_OP,operator_unspec,2
+3,Ginna,operator_unspec,shift_supervisor,1
+4,Ginna,operator_unspec,control_room_OP,7
+5,Ginna,operator_unspec,engineers_unspec,1
+6,Ginna,team_lead,control_room_OP,2
+7,Ginna,electrician,control_room_OP,1
+8,Ginna,control_room_OP,engineer_unspec,1
+9,Ginna,team_lead,electrician,1
+10,Ginna,engineers_unspec,control_room_OP,1
+11,Ginna,operators_unspec,operator_unspec,1
+12,Ginna,control_room_OP,resident_inspector,1
+0,Hope Creek,technician_unspec,control_room_OP,1
+1,Hope Creek,CR_supervisor,control_room_OP,1
+2,Hope Creek,operators_unspec,tech_unspec,2
+3,Hope Creek,s_reactor_operator,maintenance_WKR,1
+4,Hope Creek,maintenance_sup,maintenance_WKR,1
+5,Hope Creek,CR_supervisor,operator_unspec,1
+6,Hope Creek,operators_unspec,licensed_OP,1
+7,Hope Creek,technician_unspec,operator_unspec,1
+8,Hope Creek,control_room_OP,operator_unspec,1
+9,Hope Creek,technician_unspec,operators_unspec,1
+10,Hope Creek,tech_unspec,operators_unspec,2
+11,Hope Creek,tech_unspec,supervisor,1
+12,Hope Creek,s_reactor_operator,maintenance_sup,1
+13,Hope Creek,supervisor_unspec,technician_unspec,2
+0,Indian Point,engineer_unspec,engineer_unspec,2
+1,Indian Point,reactor_OP,reactor_OP,1
+2,Indian Point,supervisor_unspec,engineer_unspec,2
+3,Indian Point,operator_unspec,operator_trainee_unspec,4
+4,Indian Point,supervisor_unspec,technician_unspec,1
+5,Indian Point,operator_unspec,operator_unspec,1
+6,Indian Point,operator_unspec,operators_unspec,1
+7,Indian Point,engineers_unspec,contractor_nonlicensed,1
+8,Indian Point,operators_unspec,operators_unspec,1
+9,Indian Point,resident_inspector,resident_inspector,2
+10,Indian Point,shift_manager,CR_supervisor,5
+11,Indian Point,reactor_OP,shift_technical_advisor,2
+12,Indian Point,operator_unspec,shift_manager,1
+13,Indian Point,operators_unspec,operator_unspec,1
+14,Indian Point,operator_trainee_unspec,reactor_OP,3
+15,Indian Point,operator_trainee_unspec,control_room_sup,1
+16,Indian Point,s_reactor_operator,engineer_unspec,2
+17,Indian Point,CR_supervisor,operator_unspec,2
+18,Indian Point,engineer_unspec,CR_supervisor,2
+19,Indian Point,resident_inspector,engineer_unspec,1
+20,Indian Point,shift_technical_advisor,operators_unspec,1
+21,Indian Point,operators_unspec,tech_unspec,1
+22,Indian Point,engineer_unspec,shift_manager,2
+23,Indian Point,assistant_shift_sup,operations_manager,2
+24,Indian Point,operator_unspec,supervisor_unspec,1
+25,Indian Point,CR_supervisor,tech_unspec,1
+26,Indian Point,supervisor_unspec,CR_supervisor,2
+27,Indian Point,s_reactor_operator,supervisor_unspec,2
+28,Indian Point,supervisor_unspec,operator_unspec,1
+29,Indian Point,engineer_unspec,supervisor_unspec,2
+30,Indian Point,tech_unspec,operators_unspec,3
+31,Indian Point,operators_unspec,supervisor,1
+32,Indian Point,operator_unspec,tech_unspec,1
+33,Indian Point,supervisor_unspec,shift_manager,3
+34,Indian Point,supervisor,maintenance_WKR,1
+35,Indian Point,control_room_sup,operator_unspec,1
+36,Indian Point,shift_manager,operators_unspec,2
+37,Indian Point,control_room_sup,operator_trainee_unspec,1
+38,Indian Point,reactor_OP,operator_trainee_unspec,2
+39,Indian Point,operator_trainee_unspec,licensed_OP,1
+40,Indian Point,operator_unspec,reactor_OP,2
+41,Indian Point,shift_manager,operator_unspec,1
+42,Indian Point,supervisor_unspec,tech_unspec,1
+43,Indian Point,operations_manager,shift_manager,1
+44,Indian Point,engineers_unspec,supervisor,1
+45,Indian Point,supervisor,supervisor_unspec,1
+46,Indian Point,reactor_OP,control_room_sup,2
+47,Indian Point,control_room_sup,shift_manager,1
+48,Indian Point,mechanics_unspec,supervisor_unspec,1
+49,Indian Point,shift_technical_advisor,shift_manager,1
+50,Indian Point,operators_unspec,operations_manager,1
+51,Indian Point,technician_unspec,supervisor_unspec,1
+52,Indian Point,shift_manager,shift_manager,2
+0,Limerick,shift_supervisor,reactor_OP,1
+1,Limerick,operator_unspec,reactor_OP,1
+2,Limerick,CR_supervisor,operators_unspec,1
+3,Limerick,Work_control_supervisor,operators_unspec,1
+4,Limerick,Work_control_supervisor,CR_supervisor,1
+5,Limerick,technician_unspec,CR_shift_supervisor,1
+6,Limerick,operator_unspec,operator_trainee_unspec,1
+7,Limerick,supervisor_unspec,technician_unspec,1
+0,Millstone,operator_unspec,operator_unspec,2
+1,Millstone,electrician,shift_manager,1
+2,Millstone,control_room_OP,operators_unspec,1
+3,Millstone,operators_unspec,engineers_unspec,1
+4,Millstone,shift_manager,operations_manager,2
+5,Millstone,operators_unspec,shift_manager,3
+6,Millstone,engineers_unspec,operators_unspec,1
+7,Millstone,operator_unspec,control_room_OP,1
+8,Millstone,operators_unspec,supervisor_unspec,1
+9,Millstone,operations_manager,operators_unspec,1
+10,Millstone,supervisor_unspec,shift_manager,1
+11,Millstone,shift_manager,supervisor_unspec,1
+12,Millstone,operator_unspec,operator_trainee_unspec,1
+13,Millstone,operators_unspec,operators_unspec,2
+0,Nine Mile Point,maintenance_WKR,maintenance_WKR,1
+1,Nine Mile Point,operators_unspec,operators_unspec,7
+2,Nine Mile Point,technician_unspec,technician_unspec,1
+3,Nine Mile Point,licensed_OP,licensed_OP,1
+4,Nine Mile Point,supervisor_unspec,operator_unspec,1
+5,Nine Mile Point,operator_unspec,operator_unspec,2
+6,Nine Mile Point,tech_unspec,tech_unspec,1
+7,Nine Mile Point,shift_supervisor,shift_supervisor,1
+8,Nine Mile Point,s_reactor_operator,assistant_shift_sup,2
+9,Nine Mile Point,operator_unspec,shift_supervisor,2
+10,Nine Mile Point,supervisor_unspec,chem_tech,1
+11,Nine Mile Point,engineer_unspec,technician_unspec,2
+12,Nine Mile Point,engineer_unspec,supervisor_unspec,1
+13,Nine Mile Point,assistant_shift_sup,operators_unspec,2
+14,Nine Mile Point,shift_supervisor,assistant_shift_sup,1
+15,Nine Mile Point,operators_unspec,tech_unspec,2
+16,Nine Mile Point,operators_unspec,supervisor,1
+17,Nine Mile Point,plant_manager,operations_manager,1
+18,Nine Mile Point,assistant_shift_sup,shift_supervisor,12
+19,Nine Mile Point,supervisor_unspec,operations_manager,1
+20,Nine Mile Point,operators_unspec,engineers_unspec,1
+21,Nine Mile Point,shift_supervisor,operators_unspec,2
+22,Nine Mile Point,operator_unspec,licensed_OP,2
+23,Nine Mile Point,operator_unspec,reactor_OP,1
+24,Nine Mile Point,reactor_OP,engineer_unspec,1
+25,Nine Mile Point,operators_unspec,operator_unspec,2
+26,Nine Mile Point,engineer_unspec,operators_unspec,2
+27,Nine Mile Point,operator_unspec,engineer_unspec,1
+28,Nine Mile Point,engineers_unspec,engineers_unspec,3
+0,Peach Bottom,tech_unspec,control_room_OP,1
+1,Peach Bottom,tech_unspec,technician_unspec,1
+2,Peach Bottom,operators_unspec,tech_unspec,1
+3,Peach Bottom,Work_control_supervisor,control_room_sup,1
+4,Peach Bottom,engineer_unspec,tech_unspec,1
+5,Peach Bottom,operator_unspec,CR_supervisor,2
+6,Peach Bottom,operator_unspec,licensed_OP,1
+7,Peach Bottom,operators_unspec,operator_unspec,1
+8,Peach Bottom,CR_supervisor,operator_unspec,1
+9,Peach Bottom,electrician,shift_supervisor,1
+10,Peach Bottom,operator_unspec,operator_unspec,1
+0,Pilgrim,s_reactor_operator,shift_technical_advisor,1
+1,Pilgrim,technician_unspec,technician_unspec,1
+2,Pilgrim,shift_technical_advisor,s_reactor_operator,1
+3,Pilgrim,operator_unspec,licensed_OP,2
+4,Pilgrim,operators_unspec,shift_supervisor,2
+5,Pilgrim,shift_manager,operator_unspec,1
+6,Pilgrim,operators_unspec,independent_system_OP,1
+7,Pilgrim,operations_manager,operators_unspec,1
+8,Pilgrim,operators_unspec,tech_unspec,1
+9,Pilgrim,operators_unspec,operator_unspec,2
+10,Pilgrim,licensed_OP,operator_unspec,1
+11,Pilgrim,operator_unspec,engineer_unspec,1
+12,Pilgrim,operators_unspec,operators_unspec,1
+0,Salem,fire_watch_sup,fire_watch_sup,1
+1,Salem,fire_watch_staff,fire_watch_staff,1
+2,Salem,supervisor_unspec,reactor_ENG,1
+3,Salem,operator_unspec,operator_unspec,2
+4,Salem,control_room_sup,control_room_sup,1
+5,Salem,reactor_OP,control_room_sup,1
+6,Salem,maintenance_sup,technician_unspec,1
+7,Salem,licensed_OP,CR_supervisor,1
+8,Salem,CR_supervisor,operator_unspec,4
+9,Salem,licensed_OP,control_room_OP,1
+10,Salem,operators_unspec,supervisor,1
+11,Salem,technician_unspec,reactor_OP,1
+12,Salem,control_room_sup,shift_technical_advisor,1
+13,Salem,tech_unspec,tech_unspec,1
+0,Seabrook,operator_unspec,mechanic_unspec,1
+1,Seabrook,operators_unspec,shift_manager,3
+2,Seabrook,engineers_unspec,analysts_unspec,1
+3,Seabrook,engineer_unspec,shift_manager,1
+4,Seabrook,operators_unspec,electrician,1
+5,Seabrook,supervisor_unspec,shift_manager,1
+6,Seabrook,shift_manager,s_reactor_operator,1
+7,Seabrook,control_room_OP,supervisor_unspec,2
+8,Seabrook,operators_unspec,operators_unspec,1
+0,Susquehanna,operators_unspec,operators_unspec,2
+1,Susquehanna,operator_unspec,operator_unspec,2
+2,Susquehanna,maintenance_WKR,maintenance_WKR,2
+3,Susquehanna,operations_sup,operators_unspec,1
+4,Susquehanna,fire_watch_staff,fire_watch_staff,5
+5,Susquehanna,operators_unspec,operator_unspec,1
+6,Susquehanna,s_reactor_operator,operators_unspec,1
+7,Susquehanna,operators_unspec,engineers_unspec,1
+8,Susquehanna,supervisor_unspec,operators_unspec,1
+9,Susquehanna,operators_unspec,supervisor,2
+10,Susquehanna,engineer_unspec,fire_watch_staff,4
+11,Susquehanna,operator_unspec,operators_unspec,3
+12,Susquehanna,engineers_unspec,engineers_unspec,4
+0,Three Mile Island,operator_unspec,operators_unspec,1
+1,Three Mile Island,operators_unspec,engineers_unspec,1
+2,Three Mile Island,shift_supervisor,operator_unspec,1
+3,Three Mile Island,engineers_unspec,shift_technical_advisor,1
+4,Three Mile Island,supervisor,supervisor_unspec,1
+5,Three Mile Island,operators_unspec,maintenance_WKR,3
+6,Three Mile Island,technician_unspec,supervisor_unspec,1
+7,Three Mile Island,shift_supervisor,electrician,1

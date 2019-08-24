@@ -1,0 +1,229 @@
+,Plant,source,target,weight
+0,Arkansas,operator_unspec,operator_unspec,1
+1,Arkansas,control_room_sup,operators_unspec,2
+2,Arkansas,resident_inspector,operators_unspec,1
+3,Arkansas,CR_supervisor,licensed_OP,1
+4,Arkansas,CR_supervisor,operator_unspec,3
+5,Arkansas,CR_supervisor,s_reactor_operator,1
+6,Arkansas,licensed_OP,operator_unspec,1
+7,Arkansas,operators_unspec,operators_unspec,2
+0,Callaway,technician_unspec,operator_unspec,2
+1,Callaway,assistant_shift_sup,operator_unspec,2
+2,Callaway,CR_shift_supervisor,fire_watch_staff,1
+3,Callaway,CR_supervisor,operator_unspec,1
+4,Callaway,supervisor_unspec,shift_supervisor,2
+5,Callaway,operators_unspec,operator_unspec,1
+6,Callaway,shift_supervisor,s_reactor_operator,2
+7,Callaway,shift_supervisor,CR_supervisor,1
+8,Callaway,engineers_unspec,operators_unspec,1
+9,Callaway,engineer_unspec,engineer_unspec,1
+0,Columbia Generating Station,supervisor_unspec,tech_unspec,3
+1,Columbia Generating Station,tech_unspec,control_room_OP,3
+2,Columbia Generating Station,shift_manager,operator_unspec,1
+3,Columbia Generating Station,control_room_OP,tech_unspec,4
+4,Columbia Generating Station,engineer_unspec,supervisor_unspec,1
+5,Columbia Generating Station,control_room_OP,operator_unspec,1
+6,Columbia Generating Station,technician_unspec,operators_unspec,1
+7,Columbia Generating Station,operators_unspec,supervisor_unspec,1
+8,Columbia Generating Station,tech_unspec,supervisor_unspec,3
+9,Columbia Generating Station,operations_manager,operators_unspec,2
+10,Columbia Generating Station,tech_unspec,operators_unspec,3
+11,Columbia Generating Station,supervisor_unspec,control_room_OP,3
+12,Columbia Generating Station,tech_unspec,tech_unspec,3
+0,Comanche Peak,operators_unspec,operators_unspec,2
+1,Comanche Peak,operators_unspec,operator_unspec,1
+2,Comanche Peak,operators_unspec,maintenance_WKR,1
+3,Comanche Peak,supervisor_unspec,supervisor_unspec,1
+0,Cooper,plant_manager,operations_manager,3
+1,Cooper,shift_supervisor,CR_supervisor,3
+2,Cooper,maintenance_WKR,contractor_nonlicensed,2
+3,Cooper,operators_unspec,operations_sup,1
+4,Cooper,operations_manager,operations_sup,1
+5,Cooper,operator_unspec,supervisor_unspec,1
+6,Cooper,operator_unspec,s_reactor_operator,2
+7,Cooper,engineer_unspec,s_reactor_operator,1
+8,Cooper,plant_manager,supervisor,2
+9,Cooper,operations_sup,CR_supervisor,1
+10,Cooper,control_room_sup,operator_unspec,1
+11,Cooper,operations_manager,shift_supervisor,1
+12,Cooper,plant_manager,shift_supervisor,1
+13,Cooper,supervisor_unspec,engineer_unspec,1
+14,Cooper,shift_supervisor,engineer_unspec,1
+15,Cooper,engineers_unspec,engineer_unspec,1
+16,Cooper,operations_manager,CR_supervisor,1
+17,Cooper,operations_manager,operators_unspec,1
+18,Cooper,engineers_unspec,tech_unspec,1
+19,Cooper,operations_manager,supervisor,2
+20,Cooper,tech_unspec,engineer_unspec,1
+21,Cooper,operator_unspec,operator_unspec,1
+0,Diablo Canyon,engineer_unspec,operator_unspec,1
+1,Diablo Canyon,operator_unspec,operator_unspec,1
+2,Diablo Canyon,operators_unspec,operator_unspec,1
+3,Diablo Canyon,operators_unspec,maintenance_WKR,1
+4,Diablo Canyon,tech_unspec,operators_unspec,1
+5,Diablo Canyon,licensed_OP,operator_trainee_unspec,1
+6,Diablo Canyon,maintenance_WKR,operators_unspec,3
+7,Diablo Canyon,procedure_writer,engineer_unspec,1
+8,Diablo Canyon,shift_supervisor,operator_unspec,1
+9,Diablo Canyon,operator_unspec,control_room_OP,2
+10,Diablo Canyon,fire_shift_CPT,supervisor_unspec,1
+11,Diablo Canyon,operators_unspec,tech_unspec,2
+12,Diablo Canyon,worker_unspec,supervisor_unspec,2
+13,Diablo Canyon,operator_unspec,operators_unspec,26
+14,Diablo Canyon,supervisor_unspec,technician_unspec,1
+15,Diablo Canyon,operators_unspec,operators_unspec,2
+0,Fort Calhoun,engineer_unspec,shift_supervisor,1
+1,Fort Calhoun,operator_unspec,operator_unspec,1
+2,Fort Calhoun,assistant_shift_sup,plant_manager,1
+3,Fort Calhoun,shift_supervisor,operator_unspec,1
+4,Fort Calhoun,shift_supervisor,engineer_unspec,2
+5,Fort Calhoun,engineer_unspec,shift_manager,1
+6,Fort Calhoun,operators_unspec,reactor_ENG,1
+7,Fort Calhoun,reactor_ENG,operators_unspec,1
+8,Fort Calhoun,engineer_unspec,engineer_unspec,1
+0,Grand Gulf,control_room_OP,shift_supervisor,2
+1,Grand Gulf,supervisor_unspec,shift_supervisor,2
+2,Grand Gulf,operator_unspec,operators_unspec,1
+3,Grand Gulf,supervisor_unspec,control_room_OP,1
+0,Kewaunee,shift_supervisor,shift_supervisor,1
+1,Kewaunee,control_room_OP,control_room_OP,1
+2,Kewaunee,CR_supervisor,shift_supervisor,1
+3,Kewaunee,engineer_unspec,engineer_unspec,2
+4,Kewaunee,operator_trainee_unspec,control_room_OP,1
+5,Kewaunee,technician_unspec,engineers_unspec,1
+6,Kewaunee,shift_supervisor,CR_supervisor,2
+7,Kewaunee,control_room_sup,reactor_OP,1
+8,Kewaunee,CR_supervisor,reactor_OP,1
+9,Kewaunee,control_room_sup,shift_supervisor,2
+10,Kewaunee,CR_supervisor,operators_unspec,1
+11,Kewaunee,technician_unspec,engineer_unspec,2
+12,Kewaunee,assistant_shift_sup,operations_manager,1
+13,Kewaunee,tech_unspec,operators_unspec,1
+14,Kewaunee,licensed_OP,control_room_OP,1
+15,Kewaunee,operators_unspec,shift_supervisor,1
+16,Kewaunee,licensed_OP,operator_trainee_unspec,1
+17,Kewaunee,assistant_shift_sup,plant_manager,1
+18,Kewaunee,operators_unspec,shift_technical_advisor,1
+19,Kewaunee,control_room_OP,operator_trainee_unspec,5
+20,Kewaunee,control_room_OP,operators_unspec,1
+21,Kewaunee,shift_supervisor,shift_technical_advisor,2
+22,Kewaunee,operator_unspec,operators_unspec,1
+23,Kewaunee,supervisor_unspec,engineers_unspec,1
+24,Kewaunee,shift_supervisor,reactor_OP,1
+25,Kewaunee,supervisor_unspec,technician_unspec,1
+26,Kewaunee,operator_unspec,operator_unspec,3
+0,Oyster Creek,control_room_OP,operators_unspec,1
+1,Oyster Creek,tech_unspec,technician_unspec,2
+2,Oyster Creek,tech_unspec,supervisor_unspec,3
+3,Oyster Creek,supervisor_unspec,technician_unspec,1
+4,Oyster Creek,operators_unspec,tech_unspec,1
+0,Palo Verde,operator_unspec,operator_unspec,1
+1,Palo Verde,engineer_unspec,engineer_unspec,1
+2,Palo Verde,reactor_OP,CR_supervisor,1
+3,Palo Verde,CR_supervisor,operator_unspec,2
+4,Palo Verde,control_room_OP,licensed_OP,1
+5,Palo Verde,engineers_unspec,operators_unspec,3
+6,Palo Verde,operator_unspec,control_room_OP,1
+7,Palo Verde,control_room_OP,CR_supervisor,1
+8,Palo Verde,engineers_unspec,control_room_OP,2
+9,Palo Verde,shift_manager,s_reactor_operator,1
+10,Palo Verde,control_room_sup,shift_technical_advisor,1
+11,Palo Verde,technician_unspec,control_room_OP,1
+12,Palo Verde,operators_unspec,operators_unspec,1
+0,River Bend,control_room_sup,operator_unspec,1
+1,River Bend,control_room_OP,operators_unspec,1
+2,River Bend,CR_supervisor,operators_unspec,1
+3,River Bend,contractor_nonlicensed,supervisor,1
+4,River Bend,s_reactor_operator,control_room_sup,1
+5,River Bend,tech_unspec,electrician,1
+6,River Bend,operators_unspec,engineers_unspec,1
+7,River Bend,operator_unspec,operator_unspec,1
+0,San Onofre,operator_unspec,operator_unspec,1
+1,San Onofre,engineer_unspec,control_room_OP,2
+2,San Onofre,operator_unspec,assistant_shift_sup,1
+3,San Onofre,operator_unspec,CR_supervisor,1
+4,San Onofre,shift_technical_advisor,operator_unspec,1
+5,San Onofre,engineer_unspec,supervisor_unspec,2
+6,San Onofre,operator_unspec,engineers_unspec,1
+7,San Onofre,assistant_shift_sup,operator_unspec,3
+8,San Onofre,assistant_shift_sup,control_room_OP,2
+9,San Onofre,operator_unspec,supervisor_unspec,2
+10,San Onofre,shift_manager,shift_technical_advisor,2
+11,San Onofre,assistant_shift_sup,assistant_shift_sup,1
+0,South Texas,operator_unspec,operator_unspec,4
+1,South Texas,engineer_unspec,engineer_unspec,1
+2,South Texas,technician_unspec,technician_unspec,1
+3,South Texas,operators_unspec,operators_unspec,2
+4,South Texas,technician_unspec,operator_unspec,1
+5,South Texas,licensed_OP,operators_unspec,3
+6,South Texas,supervisor_unspec,operator_unspec,6
+7,South Texas,control_room_OP,shift_supervisor,1
+8,South Texas,control_room_OP,maintenance_WKR,1
+9,South Texas,operators_unspec,maintenance_sup,1
+10,South Texas,licensed_OP,operator_unspec,2
+11,South Texas,operators_unspec,engineers_unspec,1
+12,South Texas,shift_supervisor,operators_unspec,2
+13,South Texas,operator_unspec,maintenance_WKR,1
+14,South Texas,operator_unspec,supervisor_unspec,4
+15,South Texas,shift_supervisor,operator_unspec,1
+16,South Texas,control_room_OP,tech_unspec,1
+17,South Texas,supervisor_unspec,tech_unspec,1
+18,South Texas,licensed_OP,shift_supervisor,2
+19,South Texas,control_room_OP,engineers_unspec,1
+20,South Texas,maintenance_WKR,maintenance_WKR,1
+0,Vermont Yankee,operators_unspec,shift_supervisor,2
+1,Vermont Yankee,operator_unspec,operator_unspec,1
+2,Vermont Yankee,technician_unspec,supervisor_unspec,1
+3,Vermont Yankee,shift_supervisor,engineer_unspec,1
+4,Vermont Yankee,engineers_unspec,supervisor,1
+5,Vermont Yankee,plant_manager,resident_inspector,31
+6,Vermont Yankee,technician_unspec,shift_supervisor,2
+7,Vermont Yankee,operators_unspec,engineer_unspec,1
+8,Vermont Yankee,licensed_OP,operators_unspec,1
+9,Vermont Yankee,engineer_unspec,tech_unspec,1
+0,Waterford,s_reactor_operator,CR_supervisor,3
+1,Waterford,operator_unspec,operator_unspec,3
+2,Waterford,CR_supervisor,operator_unspec,5
+3,Waterford,technician_unspec,control_room_OP,1
+4,Waterford,control_room_sup,control_room_OP,1
+5,Waterford,shift_supervisor,control_room_sup,5
+6,Waterford,shift_manager,CR_supervisor,2
+7,Waterford,supervisor_unspec,CR_supervisor,1
+8,Waterford,electrician,tech_unspec,1
+9,Waterford,electrician,engineers_unspec,1
+10,Waterford,operator_unspec,s_reactor_operator,1
+11,Waterford,operators_unspec,CR_supervisor,2
+12,Waterford,operator_unspec,CR_supervisor,2
+13,Waterford,operator_unspec,technician_unspec,1
+14,Waterford,tech_unspec,operators_unspec,1
+15,Waterford,supervisor,operators_unspec,2
+16,Waterford,electrician,operators_unspec,1
+17,Waterford,tech_unspec,engineer_unspec,3
+18,Waterford,quality_control,shift_supervisor,1
+19,Waterford,shift_technical_advisor,technician_unspec,1
+20,Waterford,shift_supervisor,electrician,2
+21,Waterford,control_room_sup,operator_unspec,1
+22,Waterford,operator_unspec,shift_technical_advisor,1
+23,Waterford,control_room_sup,operators_unspec,1
+24,Waterford,shift_manager,operator_unspec,1
+25,Waterford,CR_supervisor,tech_unspec,1
+26,Waterford,operators_unspec,licensed_OP,1
+27,Waterford,supervisor_unspec,electrician,1
+28,Waterford,tech_unspec,engineers_unspec,1
+29,Waterford,shift_supervisor,shift_technical_advisor,1
+30,Waterford,tech_unspec,supervisor,1
+31,Waterford,control_room_sup,shift_supervisor,2
+32,Waterford,shift_manager,shift_technical_advisor,1
+33,Waterford,CR_supervisor,shift_technical_advisor,1
+34,Waterford,engineer_unspec,engineer_unspec,2
+0,Wolf Creek,technician_unspec,supervisor_unspec,1
+1,Wolf Creek,operators_unspec,operators_unspec,1
+2,Wolf Creek,reactor_OP,operators_unspec,1
+3,Wolf Creek,shift_manager,operators_unspec,1
+4,Wolf Creek,tech_unspec,shift_manager,2
+5,Wolf Creek,supervisor,operators_unspec,2
+6,Wolf Creek,shift_manager,tech_unspec,3
+7,Wolf Creek,engineers_unspec,control_room_OP,1
+8,Wolf Creek,control_room_OP,technician_unspec,1
+9,Wolf Creek,supervisor_unspec,technician_unspec,1
+10,Wolf Creek,supervisor_unspec,supervisor_unspec,1
