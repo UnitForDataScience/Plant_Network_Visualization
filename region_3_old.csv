@@ -1,0 +1,214 @@
+,Plant,source,target,weight
+0,Braidwood,electrician,electrician,1
+1,Braidwood,operators_unspec,supervisor_unspec,1
+2,Braidwood,supervisor_unspec,radiation_protection_tech,1
+3,Braidwood,electrician,engineer_unspec,1
+4,Braidwood,supervisor_unspec,s_reactor_operator,1
+5,Braidwood,operations_manager,operator_unspec,1
+6,Braidwood,shift_manager,supervisor_unspec,1
+7,Braidwood,operator_unspec,operators_unspec,1
+8,Braidwood,supervisor_unspec,operator_unspec,1
+9,Braidwood,operators_unspec,licensed_OP,1
+10,Braidwood,operators_unspec,operators_unspec,1
+0,Byron,supervisor_unspec,supervisor_unspec,3
+1,Byron,operator_unspec,operator_unspec,1
+2,Byron,shift_manager,shift_manager,1
+3,Byron,technician_unspec,technician_unspec,1
+4,Byron,operator_unspec,operations_manager,1
+5,Byron,operator_unspec,operators_unspec,2
+6,Byron,supervisor_unspec,technician_unspec,1
+7,Byron,engineers_unspec,s_reactor_operator,1
+8,Byron,operations_manager,operators_unspec,1
+9,Byron,supervisor_unspec,s_reactor_operator,1
+10,Byron,engineer_unspec,maintenance_sup,1
+11,Byron,operator_unspec,CR_supervisor,1
+12,Byron,supervisor_unspec,operations_sup,3
+13,Byron,operator_unspec,supervisor_unspec,4
+14,Byron,contractor_nonlicensed,engineer_unspec,2
+15,Byron,supervisor_unspec,operators_unspec,2
+16,Byron,tech_unspec,operators_unspec,1
+17,Byron,supervisor_unspec,shift_supervisor,1
+18,Byron,maintenance_WKR,supervisor_unspec,1
+19,Byron,shift_manager,supervisor_unspec,2
+20,Byron,supervisor_unspec,shift_manager,4
+21,Byron,shift_manager,control_room_OP,1
+22,Byron,radiation_protection_tech,contractor_nonlicensed,1
+23,Byron,operator_unspec,shift_manager,1
+24,Byron,tech_unspec,supervisor_unspec,1
+25,Byron,engineers_unspec,supervisor,1
+26,Byron,supervisor,supervisor_unspec,1
+27,Byron,supervisor,tech_unspec,1
+28,Byron,operators_unspec,operator_unspec,1
+29,Byron,technician_unspec,supervisor_unspec,1
+30,Byron,engineer_unspec,engineer_unspec,5
+0,Clinton,operator_unspec,operator_unspec,2
+1,Clinton,control_room_sup,s_reactor_operator,1
+2,Clinton,maintenance_WKR,supervisor_unspec,1
+3,Clinton,CR_supervisor,tech_unspec,1
+4,Clinton,operator_unspec,CR_supervisor,1
+5,Clinton,CR_supervisor,shift_manager,1
+6,Clinton,CR_supervisor,operators_unspec,2
+7,Clinton,operators_unspec,s_reactor_operator,1
+8,Clinton,CR_supervisor,operator_unspec,1
+9,Clinton,operators_unspec,maintenance_WKR,2
+10,Clinton,operator_unspec,control_room_sup,1
+11,Clinton,control_room_sup,operator_unspec,1
+12,Clinton,tech_unspec,operators_unspec,2
+13,Clinton,tech_unspec,CR_supervisor,1
+14,Clinton,shift_manager,Work_control_supervisor,3
+15,Clinton,shift_manager,shift_manager,1
+0,D.C. Cook,operator_unspec,control_room_OP,4
+1,D.C. Cook,operator_unspec,supervisor_unspec,2
+2,D.C. Cook,maintenance_WKR,supervisor,1
+3,D.C. Cook,shift_manager,supervisor_unspec,1
+4,D.C. Cook,maintenance_WKR,shift_manager,1
+5,D.C. Cook,shift_supervisor,shift_technical_advisor,1
+6,D.C. Cook,supervisor_unspec,shift_supervisor,2
+7,D.C. Cook,supervisor_unspec,shift_technical_advisor,1
+8,D.C. Cook,supervisor_unspec,operator_unspec,4
+9,D.C. Cook,engineers_unspec,shift_manager,1
+0,Davis-Besse,shift_manager,engineer_unspec,3
+1,Davis-Besse,shift_supervisor,shift_supervisor,1
+2,Davis-Besse,shift_manager,s_reactor_operator,1
+3,Davis-Besse,licensed_OP,operator_trainee_unspec,1
+4,Davis-Besse,engineer_unspec,operator_unspec,2
+5,Davis-Besse,engineer_unspec,s_reactor_operator,1
+6,Davis-Besse,s_reactor_operator,operators_unspec,1
+7,Davis-Besse,supervisor_unspec,operator_unspec,4
+8,Davis-Besse,engineer_unspec,supervisor_unspec,3
+9,Davis-Besse,supervisor_unspec,control_room_OP,1
+10,Davis-Besse,shift_manager,supervisor_unspec,6
+11,Davis-Besse,supervisor_unspec,shift_manager,1
+12,Davis-Besse,control_room_OP,shift_manager,1
+13,Davis-Besse,operators_unspec,engineers_unspec,1
+14,Davis-Besse,operator_trainee_unspec,licensed_OP,1
+15,Davis-Besse,assistant_shift_sup,plant_manager,1
+16,Davis-Besse,operator_unspec,licensed_OP,1
+17,Davis-Besse,engineer_unspec,shift_manager,1
+18,Davis-Besse,shift_manager,operator_unspec,4
+19,Davis-Besse,operator_unspec,control_room_OP,1
+20,Davis-Besse,tech_unspec,supervisor,1
+21,Davis-Besse,operators_unspec,operator_unspec,1
+22,Davis-Besse,operator_unspec,operator_trainee_unspec,2
+23,Davis-Besse,technician_unspec,supervisor_unspec,3
+24,Davis-Besse,supervisor_unspec,supervisor_unspec,1
+0,Dresden,supervisor_unspec,outage_manager,1
+1,Dresden,supervisor_unspec,supervisor_unspec,5
+2,Dresden,outage_manager,outage_manager,1
+3,Dresden,engineer_unspec,operators_unspec,1
+4,Dresden,supervisor_unspec,maintenance_sup,1
+5,Dresden,outage_manager,supervisor_unspec,1
+6,Dresden,maintenance_WKR,operator_unspec,1
+7,Dresden,supervisor_unspec,operator_unspec,3
+8,Dresden,outage_manager,s_reactor_operator,2
+9,Dresden,shift_manager,outage_manager,1
+10,Dresden,engineer_unspec,shift_manager,3
+11,Dresden,mechanics_unspec,electrician,1
+12,Dresden,supervisor_unspec,mechanic_unspec,1
+13,Dresden,tech_unspec,engineers_unspec,1
+14,Dresden,tech_unspec,operators_unspec,2
+15,Dresden,mechanic_unspec,electrician,1
+16,Dresden,operators_unspec,electrician,1
+17,Dresden,supervisor_unspec,shift_manager,2
+18,Dresden,operator_unspec,operations_sup,1
+19,Dresden,mechanics_unspec,mechanics_unspec,1
+0,Duane Arnold,operator_unspec,control_room_OP,2
+1,Duane Arnold,operator_unspec,shift_technical_advisor,1
+2,Duane Arnold,supervisor_unspec,operator_unspec,1
+3,Duane Arnold,operators_unspec,engineers_unspec,1
+4,Duane Arnold,operator_unspec,operator_unspec,3
+0,Fermi,shift_technical_advisor,tech_unspec,1
+1,Fermi,supervisor_unspec,operators_unspec,5
+2,Fermi,operator_unspec,operators_unspec,1
+3,Fermi,supervisor_unspec,tech_unspec,1
+4,Fermi,supervisor_unspec,shift_technical_advisor,1
+5,Fermi,operators_unspec,engineers_unspec,2
+0,La Salle,fire_watch_staff,quality_control,16
+1,La Salle,fire_watch_staff,fire_watch_staff,9
+2,La Salle,operators_unspec,operator_unspec,1
+3,La Salle,s_reactor_operator,shift_technical_advisor,1
+4,La Salle,fire_watch_staff,shift_manager,1
+5,La Salle,CR_supervisor,operators_unspec,1
+6,La Salle,supervisor_unspec,fire_watch_staff,2
+7,La Salle,supervisor_unspec,operator_unspec,1
+8,La Salle,supervisor,operators_unspec,1
+9,La Salle,fire_watch_staff,supervisor_unspec,4
+10,La Salle,quality_control,fire_watch_staff,3
+11,La Salle,operator_unspec,control_room_OP,1
+12,La Salle,tech_unspec,engineers_unspec,1
+13,La Salle,fire_watch_staff,supervisor,2
+14,La Salle,operator_unspec,supervisor_unspec,2
+15,La Salle,supervisor_unspec,quality_control,1
+16,La Salle,operator_unspec,operator_unspec,1
+0,Monticello,maintenance_WKR,engineers_unspec,1
+1,Monticello,operations_manager,operators_unspec,1
+2,Monticello,shift_supervisor,control_room_OP,1
+3,Monticello,operator_unspec,fire_watch_staff,1
+4,Monticello,maintenance_WKR,operators_unspec,1
+5,Monticello,operators_unspec,engineers_unspec,1
+0,Palisades,shift_supervisor,operators_unspec,1
+1,Palisades,control_room_OP,shift_supervisor,1
+2,Palisades,CR_supervisor,licensed_OP,1
+3,Palisades,CR_supervisor,engineer_unspec,1
+4,Palisades,operators_unspec,engineers_unspec,2
+5,Palisades,operators_unspec,operators_unspec,1
+0,Perry,operator_unspec,control_room_OP,2
+1,Perry,control_room_OP,engineers_unspec,2
+2,Perry,supervisor_unspec,s_reactor_operator,1
+3,Perry,operators_unspec,reactor_ENG,1
+4,Perry,control_room_OP,operator_unspec,1
+5,Perry,supervisor_unspec,operator_unspec,1
+6,Perry,engineers_unspec,engineers_unspec,1
+0,Point Beach,engineer_unspec,shift_manager,1
+1,Point Beach,operator_unspec,operator_unspec,2
+2,Point Beach,technician_unspec,supervisor_unspec,1
+3,Point Beach,maintenance_sup,electrician,2
+4,Point Beach,technician_unspec,engineer_unspec,1
+5,Point Beach,s_reactor_operator,operator_unspec,1
+6,Point Beach,plant_manager,resident_inspector,2
+7,Point Beach,maintenance_sup,operator_unspec,1
+8,Point Beach,engineer_unspec,maintenance_WKR,1
+9,Point Beach,supervisor_unspec,engineer_unspec,1
+10,Point Beach,contractor_nonlicensed,engineer_unspec,4
+11,Point Beach,worker_unspec,engineer_unspec,1
+12,Point Beach,electrician,supervisor_unspec,1
+13,Point Beach,electrician,engineer_unspec,1
+14,Point Beach,electrician,operator_unspec,1
+15,Point Beach,mechanic_unspec,engineer_unspec,1
+16,Point Beach,operator_unspec,supervisor_unspec,1
+17,Point Beach,technician_unspec,contractor_nonlicensed,1
+18,Point Beach,operator_unspec,engineer_unspec,1
+19,Point Beach,engineer_unspec,engineer_unspec,2
+0,Prairie Island,operator_unspec,operator_unspec,1
+1,Prairie Island,fire_watch_staff,fire_watch_staff,1
+2,Prairie Island,fire_watch_staff,control_room_OP,1
+3,Prairie Island,supervisor_unspec,supervisor_unspec,1
+4,Prairie Island,engineer_unspec,operators_unspec,1
+5,Prairie Island,operators_unspec,operator_unspec,1
+6,Prairie Island,operator_unspec,control_room_OP,1
+7,Prairie Island,plant_manager,supervisor,1
+8,Prairie Island,control_room_OP,operator_unspec,2
+9,Prairie Island,plant_manager,shift_manager,1
+10,Prairie Island,control_room_OP,fire_watch_staff,1
+11,Prairie Island,assistant_shift_sup,operator_unspec,1
+12,Prairie Island,supervisor,control_room_OP,1
+13,Prairie Island,operator_unspec,operators_unspec,2
+14,Prairie Island,shift_manager,shift_technical_advisor,1
+15,Prairie Island,operator_unspec,operator_trainee_unspec,2
+16,Prairie Island,operators_unspec,operators_unspec,1
+0,Quad Cities,engineers_unspec,engineers_unspec,2
+1,Quad Cities,shift_manager,maintenance_WKR,1
+2,Quad Cities,supervisor_unspec,shift_manager,3
+3,Quad Cities,shift_manager,operations_sup,1
+4,Quad Cities,operations_sup,electrician,2
+5,Quad Cities,operators_unspec,procedure_writer,1
+6,Quad Cities,operations_manager,shift_manager,1
+7,Quad Cities,supervisor_unspec,operations_sup,1
+8,Quad Cities,tech_unspec,technician_unspec,1
+9,Quad Cities,electrician,supervisor_unspec,1
+10,Quad Cities,operators_unspec,tech_unspec,1
+11,Quad Cities,operators_unspec,supervisor,3
+12,Quad Cities,tech_unspec,engineer_unspec,1
+13,Quad Cities,shift_manager,supervisor_unspec,2
+14,Quad Cities,technician_unspec,supervisor_unspec,1
+15,Quad Cities,operator_unspec,operator_unspec,2

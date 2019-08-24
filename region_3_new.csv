@@ -1,0 +1,62 @@
+,Plant,source,target,weight
+0,Braidwood,engineer_unspec,contractor_nonlicensed,1
+1,Braidwood,operator_unspec,maintenance_WKR,1
+2,Braidwood,operators_unspec,engineers_unspec,1
+0,Byron,operator_unspec,operator_unspec,1
+1,Byron,operators_unspec,engineers_unspec,1
+2,Byron,supervisor_unspec,operators_unspec,1
+3,Byron,operator_unspec,shift_manager,1
+4,Byron,supervisor_unspec,shift_manager,1
+5,Byron,shift_manager,operator_unspec,1
+6,Byron,operator_unspec,supervisor_unspec,1
+7,Byron,technician_unspec,supervisor_unspec,1
+8,Byron,control_room_sup,control_room_sup,1
+0,Clinton,contractor_nonlicensed,contractor_nonlicensed,1
+0,Davis-Besse,supervisor,supervisor,2
+1,Davis-Besse,supervisor,maintenance_WKR,1
+2,Davis-Besse,engineers_unspec,supervisor,4
+3,Davis-Besse,supervisor,operators_unspec,1
+4,Davis-Besse,operators_unspec,maintenance_WKR,1
+5,Davis-Besse,operator_unspec,supervisor_unspec,1
+6,Davis-Besse,operator_unspec,operator_unspec,1
+0,Dresden,supervisor_unspec,licensed_OP,1
+1,Dresden,operators_unspec,operator_unspec,1
+2,Dresden,engineer_unspec,operator_trainee_unspec,1
+0,Duane Arnold,electrician,electrician,1
+1,Duane Arnold,electrician,shift_manager,1
+2,Duane Arnold,operators_unspec,operators_unspec,2
+3,Duane Arnold,technician_unspec,procedure_writer,1
+4,Duane Arnold,operator_unspec,operator_unspec,1
+0,Fermi,supervisor_unspec,operators_unspec,23
+1,Fermi,tech_unspec,operators_unspec,2
+0,La Salle,maintenance_WKR,supervisor,1
+0,Monticello,control_room_sup,operator_unspec,1
+1,Monticello,operator_unspec,operator_unspec,1
+2,Monticello,CR_supervisor,shift_manager,1
+3,Monticello,operator_unspec,CR_supervisor,1
+4,Monticello,control_room_sup,engineer_unspec,1
+5,Monticello,operator_unspec,control_room_sup,1
+6,Monticello,operator_unspec,shift_manager,2
+7,Monticello,operators_unspec,operations_manager,1
+8,Monticello,control_room_sup,shift_manager,1
+9,Monticello,shift_manager,supervisor_unspec,1
+10,Monticello,control_room_sup,CR_supervisor,1
+11,Monticello,operator_unspec,engineer_unspec,1
+12,Monticello,control_room_sup,control_room_sup,1
+0,Palisades,supervisor_unspec,engineer_unspec,1
+0,Perry,shift_manager,engineer_unspec,1
+1,Perry,engineer_unspec,shift_manager,2
+2,Perry,operator_unspec,s_reactor_operator,2
+3,Perry,shift_manager,s_reactor_operator,1
+4,Perry,reactor_OP,shift_manager,1
+5,Perry,operators_unspec,operators_unspec,1
+0,Point Beach,tech_unspec,supervisor,1
+1,Point Beach,operators_unspec,operator_unspec,1
+2,Point Beach,operators_unspec,operators_unspec,1
+0,Prairie Island,supervisor_unspec,operations_manager,1
+1,Prairie Island,assistant_shift_sup,operations_manager,1
+2,Prairie Island,supervisor_unspec,assistant_shift_sup,1
+0,Quad Cities,engineer_unspec,shift_manager,1
+1,Quad Cities,maintenance_sup,supervisor_unspec,1
+2,Quad Cities,supervisor_unspec,operator_unspec,1
+3,Quad Cities,engineer_unspec,engineer_unspec,1

@@ -1,0 +1,193 @@
+,Plant,source,target,weight
+0,Browns Ferry,supervisor_unspec,maintenance_WKR,1
+1,Browns Ferry,operators_unspec,operators_unspec,1
+2,Browns Ferry,supervisor_unspec,s_reactor_operator,1
+3,Browns Ferry,maintenance_WKR,engineers_unspec,1
+4,Browns Ferry,operators_unspec,operator_unspec,1
+5,Browns Ferry,operators_unspec,maintenance_WKR,1
+6,Browns Ferry,operator_unspec,assistant_shift_sup,1
+7,Browns Ferry,resident_inspector,shift_manager,1
+8,Browns Ferry,maintenance_WKR,control_room_OP,1
+9,Browns Ferry,mechanic_unspec,reactor_ENG,1
+10,Browns Ferry,maintenance_WKR,operators_unspec,1
+11,Browns Ferry,assistant_shift_sup,operators_unspec,2
+12,Browns Ferry,operator_unspec,engineers_unspec,1
+13,Browns Ferry,assistant_shift_sup,operator_unspec,3
+14,Browns Ferry,contractor_nonlicensed,supervisor,2
+15,Browns Ferry,operator_unspec,operators_unspec,9
+16,Browns Ferry,shift_technical_advisor,shift_manager,1
+17,Browns Ferry,resident_inspector,supervisor_unspec,3
+18,Browns Ferry,maintenance_WKR,reactor_ENG,1
+19,Browns Ferry,operator_unspec,operator_unspec,20
+0,Brunswick,operators_unspec,tech_unspec,2
+1,Brunswick,operators_unspec,s_reactor_operator,1
+2,Brunswick,engineer_unspec,maintenance_WKR,1
+3,Brunswick,operators_unspec,licensed_OP,2
+4,Brunswick,engineers_unspec,operators_unspec,2
+5,Brunswick,operator_unspec,operator_unspec,1
+0,Catawba,radiation_protection_tech,supervisor_unspec,1
+1,Catawba,operator_unspec,operator_unspec,3
+2,Catawba,s_reactor_operator,control_room_OP,2
+3,Catawba,shift_manager,s_reactor_operator,1
+4,Catawba,s_reactor_operator,shift_manager,2
+5,Catawba,technician_unspec,s_reactor_operator,1
+6,Catawba,supervisor_unspec,s_reactor_operator,1
+7,Catawba,operator_unspec,s_reactor_operator,1
+8,Catawba,engineer_unspec,control_room_OP,1
+9,Catawba,control_room_OP,tech_unspec,1
+10,Catawba,operators_unspec,fire_watch_staff,1
+11,Catawba,tech_unspec,operators_unspec,1
+12,Catawba,engineer_unspec,tech_unspec,2
+13,Catawba,shift_manager,engineers_unspec,1
+14,Catawba,assistant_shift_sup,outage_manager,1
+15,Catawba,control_room_OP,maintenance_WKR,5
+16,Catawba,shift_manager,control_room_OP,1
+17,Catawba,shift_technical_advisor,engineer_unspec,1
+18,Catawba,operator_unspec,shift_technical_advisor,1
+19,Catawba,maintenance_WKR,operators_unspec,1
+20,Catawba,shift_manager,operator_unspec,3
+21,Catawba,supervisor_unspec,tech_unspec,1
+22,Catawba,s_reactor_operator,operator_unspec,2
+23,Catawba,s_reactor_operator,s_reactor_operator,1
+0,Crystal River,supervisor_unspec,tech_unspec,1
+1,Crystal River,engineers_unspec,supervisor,2
+2,Crystal River,shift_manager,shift_supervisor,2
+3,Crystal River,operators_unspec,engineers_unspec,1
+0,Farley,operator_unspec,shift_supervisor,1
+1,Farley,shift_supervisor,operator_unspec,2
+2,Farley,shift_supervisor,worker_unspec,1
+0,Harris,control_room_OP,operator_unspec,2
+1,Harris,operator_unspec,supervisor,1
+2,Harris,supervisor,operators_unspec,1
+3,Harris,licensed_OP,supervisor,1
+4,Harris,operator_unspec,operators_unspec,1
+5,Harris,licensed_OP,operators_unspec,1
+6,Harris,operator_unspec,operator_unspec,2
+0,Hatch,technician_unspec,operators_unspec,1
+1,Hatch,maintenance_WKR,engineers_unspec,1
+2,Hatch,electrician,control_room_OP,1
+3,Hatch,electrician,tech_unspec,1
+0,McGuire,technician_unspec,supervisor_unspec,1
+1,McGuire,tech_unspec,tech_unspec,1
+2,McGuire,technician_unspec,technician_unspec,1
+3,McGuire,CR_supervisor,supervisor_unspec,1
+4,McGuire,tech_unspec,supervisor_unspec,1
+5,McGuire,tech_unspec,engineer_unspec,2
+6,McGuire,supervisor_unspec,tech_unspec,1
+7,McGuire,supervisor_unspec,control_room_OP,1
+8,McGuire,supervisor_unspec,engineer_unspec,1
+9,McGuire,operator_unspec,operator_unspec,1
+0,North Anna,operators_unspec,control_room_OP,2
+1,North Anna,control_room_OP,electrician,1
+2,North Anna,s_reactor_operator,supervisor_unspec,1
+3,North Anna,control_room_OP,control_room_OP,1
+0,Oconee,engineer_unspec,engineer_unspec,2
+1,Oconee,technician_unspec,technician_unspec,1
+2,Oconee,s_reactor_operator,tech_unspec,1
+3,Oconee,engineers_unspec,engineers_unspec,2
+4,Oconee,engineer_unspec,supervisor_unspec,2
+5,Oconee,reactor_OP,reactor_OP,1
+6,Oconee,operators_unspec,operator_unspec,1
+7,Oconee,tech_unspec,supervisor,3
+8,Oconee,technician_unspec,supervisor_unspec,2
+9,Oconee,engineers_unspec,tech_unspec,1
+10,Oconee,s_reactor_operator,engineers_unspec,1
+11,Oconee,supervisor_unspec,s_reactor_operator,1
+12,Oconee,control_room_OP,operator_unspec,1
+13,Oconee,operators_unspec,s_reactor_operator,1
+14,Oconee,operator_unspec,supervisor_unspec,1
+15,Oconee,supervisor_unspec,engineer_unspec,1
+16,Oconee,engineers_unspec,operator_unspec,1
+17,Oconee,engineers_unspec,engineer_unspec,2
+18,Oconee,operators_unspec,tech_unspec,1
+19,Oconee,operator_unspec,tech_unspec,1
+20,Oconee,tech_unspec,operators_unspec,1
+21,Oconee,physician,technician_unspec,1
+22,Oconee,control_room_OP,shift_technical_advisor,4
+23,Oconee,operator_unspec,licensed_OP,1
+24,Oconee,maintenance_WKR,operators_unspec,1
+25,Oconee,tech_unspec,contractor_nonlicensed,1
+26,Oconee,supervisor,contractor_nonlicensed,1
+27,Oconee,supervisor,tech_unspec,5
+28,Oconee,operator_unspec,operators_unspec,1
+29,Oconee,shift_manager,shift_technical_advisor,1
+30,Oconee,licensed_OP,reactor_OP,1
+31,Oconee,supervisor_unspec,technician_unspec,1
+32,Oconee,operators_unspec,operators_unspec,1
+0,Robinson,CR_shift_supervisor,shift_technical_advisor,1
+1,Robinson,operator_unspec,CR_shift_supervisor,1
+2,Robinson,operator_unspec,operator_unspec,1
+0,Saint Lucie,assistant_shift_sup,supervisor_unspec,7
+1,Saint Lucie,licensed_OP,assistant_shift_sup,2
+2,Saint Lucie,control_room_OP,assistant_shift_sup,1
+3,Saint Lucie,supervisor_unspec,supervisor_unspec,1
+4,Saint Lucie,licensed_OP,supervisor_unspec,2
+5,Saint Lucie,operators_unspec,operator_unspec,1
+6,Saint Lucie,licensed_OP,operators_unspec,1
+7,Saint Lucie,engineer_unspec,supervisor_unspec,1
+8,Saint Lucie,licensed_OP,control_room_OP,1
+9,Saint Lucie,chem_tech,control_room_OP,1
+10,Saint Lucie,supervisor_unspec,operator_unspec,2
+11,Saint Lucie,engineers_unspec,operators_unspec,2
+12,Saint Lucie,shift_supervisor,engineer_unspec,1
+13,Saint Lucie,operators_unspec,shift_technical_advisor,3
+14,Saint Lucie,engineer_unspec,assistant_shift_sup,1
+15,Saint Lucie,assistant_shift_sup,operator_unspec,2
+16,Saint Lucie,operations_manager,operators_unspec,1
+17,Saint Lucie,operators_unspec,supervisor,2
+18,Saint Lucie,tech_unspec,supervisor,1
+19,Saint Lucie,operator_unspec,operators_unspec,3
+20,Saint Lucie,control_room_OP,supervisor_unspec,1
+21,Saint Lucie,util_OP,supervisor_unspec,1
+22,Saint Lucie,operator_unspec,operator_unspec,4
+0,Sequoyah,operator_unspec,control_room_OP,22
+1,Sequoyah,operator_unspec,operator_unspec,1
+2,Sequoyah,quality_control,operator_unspec,1
+3,Sequoyah,assistant_shift_sup,operator_unspec,2
+4,Sequoyah,shift_manager,operator_unspec,1
+5,Sequoyah,auxiliary_building_assistant,operator_unspec,1
+6,Sequoyah,operator_unspec,operators_unspec,4
+7,Sequoyah,shift_manager,assistant_shift_sup,1
+8,Sequoyah,operators_unspec,engineers_unspec,1
+9,Sequoyah,operators_unspec,operators_unspec,2
+0,Summer,shift_supervisor,engineer_unspec,1
+1,Summer,operator_unspec,CR_supervisor,1
+2,Summer,operator_unspec,operator_unspec,1
+0,Surry,shift_supervisor,fire_watch_staff,2
+1,Surry,engineer_unspec,shift_supervisor,1
+2,Surry,engineer_unspec,electrician,1
+3,Surry,licensed_OP,operator_unspec,1
+4,Surry,fire_watch_staff,fire_watch_staff,2
+0,Turkey Point,supervisor_unspec,operators_unspec,1
+1,Turkey Point,supervisor_unspec,operations_sup,1
+2,Turkey Point,control_room_OP,shift_technical_advisor,1
+3,Turkey Point,supervisor_unspec,operator_unspec,2
+4,Turkey Point,operators_unspec,engineers_unspec,1
+5,Turkey Point,operators_unspec,operators_unspec,1
+0,Vogtle,shift_supervisor,operators_unspec,1
+1,Vogtle,tech_unspec,shift_supervisor,1
+2,Vogtle,procedure_writer,assistant_shift_sup,2
+3,Vogtle,electrician,operator_unspec,1
+4,Vogtle,technician_unspec,team_lead,3
+5,Vogtle,procedure_writer,team_lead,2
+6,Vogtle,assistant_shift_sup,team_lead,7
+7,Vogtle,contractor_nonlicensed,electrician,1
+8,Vogtle,technician_unspec,assistant_shift_sup,3
+9,Vogtle,shift_supervisor,operator_unspec,2
+10,Vogtle,shift_supervisor,shift_supervisor,1
+0,Watts Bar,engineers_unspec,engineers_unspec,1
+1,Watts Bar,supervisor_unspec,supervisor_unspec,1
+2,Watts Bar,operator_unspec,s_reactor_operator,1
+3,Watts Bar,operator_unspec,assistant_shift_sup,1
+4,Watts Bar,auxiliary_building_assistant,maintenance_WKR,1
+5,Watts Bar,shift_manager,control_room_OP,1
+6,Watts Bar,operator_unspec,operators_unspec,16
+7,Watts Bar,operators_unspec,maintenance_WKR,1
+8,Watts Bar,operators_unspec,shift_manager,1
+9,Watts Bar,operator_unspec,engineers_unspec,1
+10,Watts Bar,supervisor_unspec,operators_unspec,1
+11,Watts Bar,assistant_shift_sup,operator_unspec,10
+12,Watts Bar,operators_unspec,operator_unspec,3
+13,Watts Bar,shift_manager,supervisor_unspec,1
+14,Watts Bar,shift_manager,operators_unspec,1
+15,Watts Bar,operator_unspec,operator_unspec,3

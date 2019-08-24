@@ -1,0 +1,95 @@
+,Plant,source,target,weight
+0,Arkansas,shift_technical_advisor,shift_manager,2
+0,Callaway,maintenance_WKR,supervisor_unspec,2
+1,Callaway,CR_supervisor,shift_manager,1
+2,Callaway,operator_unspec,CR_supervisor,1
+3,Callaway,supervisor_unspec,CR_supervisor,1
+4,Callaway,shift_manager,CR_supervisor,2
+5,Callaway,reactor_OP,control_room_OP,1
+6,Callaway,shift_manager,control_room_OP,1
+7,Callaway,CR_supervisor,operator_unspec,1
+8,Callaway,shift_manager,operators_unspec,1
+9,Callaway,shift_manager,engineer_unspec,1
+10,Callaway,engineers_unspec,resident_inspector,1
+11,Callaway,operator_unspec,operators_unspec,1
+12,Callaway,engineer_unspec,operators_unspec,1
+13,Callaway,operator_unspec,operator_unspec,2
+0,Columbia Generating Station,tech_unspec,operators_unspec,1
+1,Columbia Generating Station,supervisor_unspec,engineers_unspec,1
+2,Columbia Generating Station,operators_unspec,tech_unspec,1
+0,Comanche Peak,resident_inspector,engineer_unspec,1
+1,Comanche Peak,supervisor_unspec,tech_unspec,1
+2,Comanche Peak,technician_unspec,operator_unspec,1
+0,Cooper,engineers_unspec,operators_unspec,1
+0,Diablo Canyon,engineers_unspec,operator_unspec,1
+1,Diablo Canyon,operator_unspec,operators_unspec,10
+2,Diablo Canyon,supervisor_unspec,technician_unspec,1
+0,Fort Calhoun,supervisor_unspec,supervisor_unspec,1
+1,Fort Calhoun,technician_unspec,licensed_OP,1
+2,Fort Calhoun,radiation_protection_tech,operators_unspec,2
+3,Fort Calhoun,control_room_sup,operator_unspec,1
+4,Fort Calhoun,radiation_protection_tech,supervisor_unspec,1
+5,Fort Calhoun,operator_unspec,rp_tech,2
+6,Fort Calhoun,CR_supervisor,operator_unspec,2
+7,Fort Calhoun,operator_unspec,licensed_OP,2
+8,Fort Calhoun,supervisor_unspec,engineers_unspec,2
+9,Fort Calhoun,reactor_OP,CR_supervisor,2
+0,Grand Gulf,resident_inspector,operators_unspec,1
+1,Grand Gulf,operator_unspec,licensed_OP,1
+2,Grand Gulf,operators_unspec,engineers_unspec,1
+0,Kewaunee,shift_technical_advisor,mechanic_unspec,1
+1,Kewaunee,operator_unspec,shift_manager,1
+2,Kewaunee,licensed_OP,shift_manager,1
+3,Kewaunee,shift_manager,CR_supervisor,1
+4,Kewaunee,operator_unspec,licensed_OP,1
+5,Kewaunee,CR_supervisor,shift_manager,1
+0,Oyster Creek,engineer_unspec,supervisor,1
+0,Palo Verde,engineer_unspec,engineer_unspec,2
+1,Palo Verde,operator_unspec,operator_unspec,1
+2,Palo Verde,shift_manager,shift_technical_advisor,1
+3,Palo Verde,shift_manager,control_room_sup,1
+4,Palo Verde,operator_unspec,maintenance_WKR,1
+5,Palo Verde,maintenance_WKR,electrician,1
+6,Palo Verde,engineer_unspec,maintenance_WKR,2
+7,Palo Verde,maintenance_WKR,mechanic_unspec,1
+8,Palo Verde,shift_manager,operators_unspec,1
+9,Palo Verde,operators_unspec,licensed_OP,2
+10,Palo Verde,engineer_unspec,control_room_OP,1
+11,Palo Verde,control_room_OP,operator_unspec,1
+12,Palo Verde,engineer_unspec,mechanics_unspec,1
+13,Palo Verde,worker_unspec,operator_unspec,1
+14,Palo Verde,engineer_unspec,electrician,1
+15,Palo Verde,maintenance_WKR,engineer_unspec,1
+16,Palo Verde,electrician,mechanic_unspec,1
+17,Palo Verde,control_room_sup,reactor_OP,1
+18,Palo Verde,control_room_sup,shift_manager,1
+19,Palo Verde,operators_unspec,operator_unspec,1
+20,Palo Verde,shift_manager,supervisor_unspec,1
+21,Palo Verde,engineer_unspec,operator_unspec,1
+22,Palo Verde,licensed_OP,licensed_OP,1
+0,River Bend,operator_unspec,control_room_sup,1
+1,River Bend,operator_unspec,shift_technical_advisor,1
+2,River Bend,operators_unspec,control_room_sup,1
+3,River Bend,control_room_sup,operator_unspec,1
+4,River Bend,maintenance_WKR,supervisor,1
+5,River Bend,tech_unspec,shift_manager,1
+6,River Bend,engineer_unspec,mechanic_unspec,1
+7,River Bend,engineer_unspec,tech_unspec,1
+0,San Onofre,shift_manager,operator_unspec,1
+1,San Onofre,engineer_unspec,supervisor,1
+2,San Onofre,worker_unspec,tech_unspec,1
+3,San Onofre,supervisor,tech_unspec,1
+4,San Onofre,shift_manager,control_room_sup,1
+5,San Onofre,engineer_unspec,tech_unspec,1
+0,South Texas,s_reactor_operator,supervisor_unspec,1
+1,South Texas,contractor_nonlicensed,electrician,1
+2,South Texas,licensed_OP,operator_trainee_unspec,1
+3,South Texas,operator_unspec,operators_unspec,1
+4,South Texas,control_room_OP,supervisor_unspec,1
+5,South Texas,operator_unspec,supervisor_unspec,1
+0,Waterford,engineer_unspec,engineer_unspec,1
+0,Wolf Creek,s_reactor_operator,electrician,1
+1,Wolf Creek,operator_unspec,operator_unspec,2
+2,Wolf Creek,control_room_OP,operator_unspec,1
+3,Wolf Creek,engineer_unspec,operator_unspec,1
+4,Wolf Creek,fire_watch_staff,fire_watch_staff,2
