@@ -43,9 +43,9 @@ d3.json("force/region_1_new.json", function (error, graph_new) {
         else return d.degree;
   })
         .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
+            .on("start", dragstarted_new)
+            .on("drag", dragged_new)
+            .on("end", dragended_new));
 
     node.append("title")
         .text(function (d) {
@@ -97,18 +97,18 @@ d3.json("force/region_1_new.json", function (error, graph_new) {
     }
 });
 
-function dragstarted(d) {
+function dragstarted_new(d) {
     if (!d3.event.active) simulation_new.alphaTarget(0.3).restart();
     d.fx = d.x;
     d.fy = d.y;
 }
 
-function dragged(d) {
+function dragged_new(d) {
     d.fx = d3.event.x;
     d.fy = d3.event.y;
 }
 
-function dragended(d) {
+function dragended_new(d) {
     if (!d3.event.active) simulation_new.alphaTarget(0);
     d.fx = null;
     d.fy = null;
