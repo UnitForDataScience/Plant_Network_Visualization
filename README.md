@@ -9,7 +9,7 @@ pip install numpy flask
 
 Install python-louvain and compatible networkx package using following 
 
-pip install -U git+https://github.com/taynaud/python-louvain.git<<<<<<< HEAD
+pip install -U git+https://github.com/taynaud/python-louvain.git
 
 Run - run plant_network.py file using "python plant_network.py"
 
