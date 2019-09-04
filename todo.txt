@@ -4,3 +4,7 @@ intensity value / category value
 
 #Later Stage -
 can we use clusteritng here with nodes (based on modularity score)
+
+1. UI modification
+2. go back to what this UI means
+3. pinpoint useful entity
