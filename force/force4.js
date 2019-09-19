@@ -4,7 +4,6 @@ var svg4 = d3.select("#svg4"),
     width = +svg4.attr("width"),
     height = +svg4.attr("height");
 
-//d3.select('body').append('svg4')
 var simulation4 = d3.forceSimulation(svg4)
     .force("link", d3.forceLink().id(function (d) {
         return d.id;
@@ -17,10 +16,6 @@ d3.json("force/region_4_old.json", function (error, graph4) {
 
     var link = svg4.append("g")
         .attr("class", "links")
-//        .attr('fill', 'red')
-//        .attr('stroke', 'red')
-//        //.attr('stroke-width', function(d) { return d.weight; })
-//        .attr("stroke-width", function(d) { return  d.weight;})
         .selectAll("line")
         .data(graph4.links)
         .enter().append("line");

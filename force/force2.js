@@ -1,12 +1,9 @@
 //// This is adapted from https://bl.ocks.org/mbostock/2675ff61ea5e063ede2b5d63c08020c7
-////
-//var chart2 = d3.select("#area2")
-//.append(svg2)
 
 var svg2 = d3.select("#svg2"),
     width = +svg2.attr("width"),
     height = +svg2.attr("height");
-//d3.select('body').append('svg2')
+
 var simulation2 = d3.forceSimulation(svg2)
     .force("link", d3.forceLink().id(function (d) {
         return d.id;
@@ -19,10 +16,6 @@ d3.json("force/region_2_old.json", function (error, graph2) {
 
     var link = svg2.append("g")
         .attr("class", "links")
-//        .attr('fill', 'red')
-//        .attr('stroke', 'red')
-//        //.attr('stroke-width', function(d) { return d.weight; })
-//        .attr("stroke-width", function(d) { return  d.weight;})
         .selectAll("line")
         .data(graph2.links)
         .enter().append("line");

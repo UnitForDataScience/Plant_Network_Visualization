@@ -17,10 +17,6 @@ d3.json("force/region_1_old.json", function (error, graph) {
 
     var link = svg1.append("g")
         .attr("class", "links")
-//        .attr('fill', 'red')
-//        .attr('stroke', 'red')
-//        //.attr('stroke-width', function(d) { return d.weight; })
-//        .attr("stroke-width", function(d) { return  d.weight;})
         .selectAll("line")
         .data(graph.links)
         .enter().append("line");
@@ -51,16 +47,6 @@ d3.json("force/region_1_old.json", function (error, graph) {
         .text(function (d) {
             return d.id;
         });
-
-//    var label = svg1.selectAll("nodes")
-//    .data(graph.nodes)
-//    .enter()
-//    .append("text")
-//    .text(function (d) { return d.id; })
-//    .style("text-anchor", "middle")
-//    .style("fill", "#555")
-//    .style("font-family", "Arial")
-//    .style("font-size", 9);
 
     simulation
         .nodes(graph.nodes)

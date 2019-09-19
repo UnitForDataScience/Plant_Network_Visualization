@@ -4,7 +4,6 @@ var svg1_new = d3.select("#svg1_new"),
     width = +svg1_new.attr("width"),
     height = +svg1_new.attr("height");
 
-//d3.select('body').append('svg1_new')
 var simulation_new = d3.forceSimulation(svg1_new)
     .force("link", d3.forceLink().id(function (d) {
         return d.id;
@@ -17,10 +16,6 @@ d3.json("force/region_1_new.json", function (error, graph_new) {
 
     var link = svg1_new.append("g")
         .attr("class", "links")
-//        .attr('fill', 'red')
-//        .attr('stroke', 'red')
-//        //.attr('stroke-width', function(d) { return d.weight; })
-//        .attr("stroke-width", function(d) { return  d.weight;})
         .selectAll("line")
         .data(graph_new.links)
         .enter().append("line");
@@ -52,16 +47,6 @@ d3.json("force/region_1_new.json", function (error, graph_new) {
             return d.id;
         });
 
-//    var label = svg1_new.selectAll("nodes")
-//    .data(graph_new.nodes)
-//    .enter()
-//    .append("text")
-//    .text(function (d) { return d.id; })
-//    .style("text-anchor", "middle")
-//    .style("fill", "#555")
-//    .style("font-family", "Arial")
-//    .style("font-size", 9);
-
     simulation_new
         .nodes(graph_new.nodes)
         .on("tick", ticked);
@@ -91,9 +76,6 @@ d3.json("force/region_1_new.json", function (error, graph_new) {
             .attr("cy", function (d) {
                 return d.y;
             });
-
-//        label.attr("x", function(d){ return d.x; })
-//    			 .attr("y", function (d) {return d.y - 10; });
     }
 });
 
