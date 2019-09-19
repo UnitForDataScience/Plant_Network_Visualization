@@ -1,17 +1,26 @@
 .flex-header{
 	width: 100%;
 	margin: 0 auto;
+	background-color:#0074D9;
 	display: -webkit-flex; /* Safari */
 	display: flex; /* Standard syntax */
 }
 .flex-header .column1{
 	padding: 10px;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	display: inline-block;
 	-webkit-flex: 1; /* Safari */
 	-ms-flex: 1; /* IE 10 */
 	flex: 1; /* Standard syntax */
 }
 .flex-header .column2{
     padding: 10px;
+    text-align:center;
+    color:white;
+	font-weight:bold;
+	display: inline-block;
 	-webkit-flex: 1; /* Safari */
 	-ms-flex: 1; /* IE 10 */
 	flex: 1; /* Standard syntax */
@@ -22,16 +31,41 @@
 	width: 100%;
 	min-height: 400px;
 	margin: 0 auto;
+	text-align: center;
 	display: -webkit-flex; /* Safari */
 	display: flex; /* Standard syntax */
+    align-items: center;
 }
+
+.region{
+	padding: 10px;
+	width:100px;
+	height:100%
+	float:left;
+	font-weight:bold;
+	background-color:#FF851B;
+}
+
 .flex-container .column{
 	padding: 10px;
+	display: inline;
+	width:50%;
+	float:left;
+	border: 1px dotted black;
 	-webkit-flex: 1; /* Safari */
 	-ms-flex: 1; /* IE 10 */
 	flex: 1; /* Standard syntax */
 }
-.flex-container .column.bg-alt{
+
+.flex-container .column-bg-alt{
+    padding: 10px;
+    display: inline;
+    width:50%;
+    float:left;
+    border: 1px dotted black;
+	-webkit-flex: 1; /* Safari */
+	-ms-flex: 1; /* IE 10 */
+	flex: 1; /* Standard syntax */
 }
 
 .nodes circle {
