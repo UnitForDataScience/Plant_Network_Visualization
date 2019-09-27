@@ -42,6 +42,7 @@ files = {
 
 }
 
+#print('FIles : ', files)
 region_edges = {}
 class_dict = {}
 
@@ -49,11 +50,16 @@ roles_set = set()
 for k, v in files.items():
     region_file_name = k + '_edges'
     file_name = os.path.join(current_dir, v)
+    #print("File Path : ", file_name)
     edges = getEdges(file_name)
+    #rint("edges : ", edges)
     aggregatedEdges, roles = getAggregatedEdgesAndRoles(edges)
+    #print("aggred_edges : ", aggregatedEdges)
+    #print("roles : ", roles)
     region_edges[region_file_name] = aggregatedEdges
     roles_set |= roles
 
+#print("region edges : ", region_edges)
 supervisor_roles = ['Work_control_supervisor', 'operations_manager','shift_supervisor', 'supervisor','fire_watch_sup','CR_shift_supervisor', 'assistant_shift_sup','plant_manager','maintenance_sup','shift_manager','team_lead','control_room_sup','s_reactor_operator','CR_supervisor','operations_sup']
 for role in roles_set:
     if role in supervisor_roles:
@@ -69,11 +75,20 @@ for k, v in region_edges.items():
     graph = nx.Graph()
     graph.add_nodes_from(roles_set)
     graph.add_weighted_edges_from(v)
-    degree_dictionary = dict(graph.degree(graph.nodes()))
-    nx.set_node_attributes(graph, degree_dictionary, 'degree')
+    #bet_dict = dict(graph.degree(graph.nodes()))
+    bet_dict = dict(nx.betweenness_centrality(graph))
+    #print('Bet_dict :', bet_dict)
+    #print("for dictionary ")
+    bet_dict.update((k, v*1000) for k, v in bet_dict.items())
+    print(k, ' : ', bet_dict)
+    nx.set_node_attributes(graph, bet_dict, 'betweenness')
+    #print(nx.get_node_attributes(graph, 'betweenness'))
     nx.set_node_attributes(graph, class_dict, 'class')
     # use nx.info(graph) to see graph information
+    #print(nx.info(graph))
     graphs[k] = graph
+
+#print(graphs)
 
 for graph, graphdata in graphs.items():
     filename = 'force/'+graph+'.json'

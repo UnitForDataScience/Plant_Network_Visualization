@@ -33,10 +33,10 @@ d3.json("force/region_1_old.json", function (error, graph) {
         return 'blue';
   })
         .attr("r", function(d) {
-        if (d.degree >= 20 ){return 15}
-        else if (d.degree < 20 && d.degree >= 16) {return 12}
-        else if (d.degree < 16 && d.degree > 9) {return 10}
-        else return d.degree;
+        if (d.betweenness >= 20 ){return 15}
+        else if (d.betweenness < 20 && d.betweenness >= 16) {return 12}
+        else if (d.betweenness < 16 && d.betweenness > 9) {return 10}
+        else return d.betweenness + 1.0;
   })
         .call(d3.drag()
             .on("start", dragstarted)
