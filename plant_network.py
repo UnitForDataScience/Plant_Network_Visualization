@@ -60,10 +60,20 @@ for k, v in files.items():
     roles_set |= roles
 
 #print("region edges : ", region_edges)
-supervisor_roles = ['Work_control_supervisor', 'operations_manager','shift_supervisor', 'supervisor','fire_watch_sup','CR_shift_supervisor', 'assistant_shift_sup','plant_manager','maintenance_sup','shift_manager','team_lead','control_room_sup','s_reactor_operator','CR_supervisor','operations_sup']
+supervisor_roles = ['shift_manager', 'supervisor_unspec', 'supervisors']
+engineering_roles = ['engineers_unspec', 'engineer_unspec']
+control_op_roles = ['control_room_sup', 'control_room_op', 'operator_unspec', 'operators_unspec']
+undefined_tech_roles = ['tech_unspec']
+
 for role in roles_set:
     if role in supervisor_roles:
         class_dict[role] = 1
+    elif role in engineering_roles:
+        class_dict[role] = 2
+    elif role in control_op_roles:
+        class_dict[role] = 3
+    elif role in undefined_tech_roles:
+        class_dict[role] = 4
     else:
         class_dict[role] = 0
 

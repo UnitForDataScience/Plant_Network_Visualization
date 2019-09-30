@@ -28,7 +28,13 @@ d3.json("force/region_1_old.json", function (error, graph) {
         .enter().append("circle")
         .style("fill", function(d) {
         if (d.class == 1)
-        return 'red'
+        return 'red';
+        else if (d.class == 2)
+        return 'black';
+        else if (d.class == 3)
+        return 'green';
+        else if (d.class == 4)
+        return 'orange';
         else
         return 'blue';
   })

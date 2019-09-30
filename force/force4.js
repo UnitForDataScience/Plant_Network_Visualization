@@ -27,7 +27,13 @@ d3.json("force/region_4_old.json", function (error, graph4) {
         .enter().append("circle")
         .style("fill", function(d) {
         if (d.class == 1)
-        return 'red'
+        return 'red';
+        else if (d.class == 2)
+        return 'black';
+        else if (d.class == 3)
+        return 'green';
+        else if (d.class == 4)
+        return 'orange';
         else
         return 'blue';
   })
@@ -35,7 +41,7 @@ d3.json("force/region_4_old.json", function (error, graph4) {
         if (d.betweenness >= 20 ){return 15}
         else if (d.betweenness < 20 && d.betweenness >= 16) {return 12}
         else if (d.betweenness < 16 && d.betweenness > 9) {return 10}
-        else return d.betweenness;
+        else return d.betweenness + 1.0;
   })
         .call(d3.drag()
             .on("start", dragstarted4)
