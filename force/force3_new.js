@@ -27,15 +27,15 @@ d3.json("force/region_3_new.json", function (error, graph3_new) {
         .enter().append("circle")
         .style("fill", function(d) {
         if (d.class == 1)
-        return 'red';
+        return '#d64b24';
         else if (d.class == 2)
-        return 'black';
+        return '#4b9b23';
         else if (d.class == 3)
-        return 'green';
+        return '#c03bb7';
         else if (d.class == 4)
-        return 'orange';
+        return '#46212d';
         else
-        return 'blue';
+        return '#008bff';
   })
         .attr("r", function(d) {
         if (d.betweenness >= 20 ){return 15}

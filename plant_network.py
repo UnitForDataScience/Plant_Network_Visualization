@@ -60,9 +60,9 @@ for k, v in files.items():
     roles_set |= roles
 
 #print("region edges : ", region_edges)
-supervisor_roles = ['shift_manager', 'supervisor_unspec', 'supervisors']
+supervisor_roles = ['shift_manager', 'supervisor_unspec', 'supervisors', 'control_room_sup']
 engineering_roles = ['engineers_unspec', 'engineer_unspec']
-control_op_roles = ['control_room_sup', 'control_room_op', 'operator_unspec', 'operators_unspec']
+control_op_roles = ['control_room_op', 'operator_unspec', 'operators_unspec']
 undefined_tech_roles = ['tech_unspec']
 
 for role in roles_set:
